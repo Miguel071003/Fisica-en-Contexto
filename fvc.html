@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FVC</title>
+    <link rel="stylesheet" href="fvc.css">
+</head>
+<body>
+    <header>
+        <!--Barra de navegación-->
+        <div class="navbar">
+            <h1>Física en la vida cotidiana</h1>
+            <nav class="navbar__bar">
+                <!--Enlaces de navegación-->
+                <ul class="navbar__list">
+                    <li class="navbar__list-item">
+                        <!--Ruta de navegación-->
+                        <a href="index.html" class="navbar__link">
+                            <img class="navbar__list-item-icon" src="iconos/home.png" alt="icono de inicio">Inicio
+                        </a>
+                    </li>
+                    <li class="navbar__list-item">
+                        <!--Ruta de navegación-->
+                        <a href="curso.html" class="navbar__link">
+                            <img class="navbar__list-item-icon" src="iconos/curso.png" alt="icono de curso">Curso
+                        </a>
+                    </li>
+                    <li class="navbar__list-item">
+                        <!--Ruta de navegación-->
+                        <a href="formulario.html" class="navbar__link">
+                            <img class="navbar__list-item-icon" src="iconos/formulario.png" alt="icono de formulario">Formulario
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!--Contenido de la página-->
+        <div class="container" id="inicio">
+            <!--Cajas de rutas-->
+            <div class="container__item item1" role="button" tabindex="0" onclick="window.location.href='#destino1'">
+                <p>En el hogar</p>
+            </div>            
+            <div class="container__item item2" role="button" tabindex="0" onclick="window.location.href='#destino2'">
+                <p>En el transporte</p>
+            </div>
+            <div class="container__item item3" role="button" tabindex="0" onclick="window.location.href='#destino3'">
+                <p>En el deporte</p>
+            </div>
+            <div class="container__item item4" role="button" tabindex="0" onclick="window.location.href='#destino4'">
+                <p>En la naturaleza</p>
+            </div>
+
+            <!--Caja de contenido-->
+            <div class="container__content item5">
+                <!--Caja de sección de la página-->
+                <div class="container__section" id="destino1">
+                    <!--Subtema-->
+                    <h3 class="container__title">En el Hogar</h3>
+                    <!--Casos de la Física-->
+                    <ul class="container__list">
+                        <!--Caso-->
+                        <div class="container__block">
+                            <li class="container__list--item">
+                                <details class="container__details">
+                                    <summary class="container__details--summary">
+                                        Microondas
+                                    </summary>
+                                    "Las ondas electromagnéticas generan calor al interactuar con las moléculas de agua en los alimentos.
+                                </details>
+                            </li>
+                        </div>
+                        <!--Caso-->
+                        <div class="container__block">
+                            <li class="container__list--item">
+                                <details class="container__details">
+                                    <summary class="container__details--summary">
+                                        Refrigerador
+                                    </summary>
+                                    "El sistema de refrigeración transfiere calor del interior al exterior mediante el ciclo del refrigerante, manteniendo tus alimentos fríos."
+                                </details>
+                            </li>
+                        </div>
+                        <!--Caso-->
+                        <div class="container__block">
+                            <li class="container__list--item">
+                                <details class="container__details">
+                                    <summary class="container__details--summary">
+                                        Wi-Fi
+                                    </summary>
+                                    "Las ondas electromagnéticas permiten que dispositivos como teléfonos y computadoras se conecten a Internet sin cables, viajando a la velocidad de la luz."
+                                </details>
+                            </li>
+                        </div>
+                        <!--Caso-->
+                        <div class="container__block">
+                            <li class="container__list--item">
+                                <details class="container__details">
+                                    <summary class="container__details--summary">
+                                        Teléfonos móviles
+                                    </summary>
+                                    "Los teléfonos funcionan gracias a las ondas electromagnéticas que permiten la transmisión de datos, y la energía interna se gestiona mediante baterías recargables."
+                                </details>
+                            </li>
+                        </div>
+                        <!--Caso-->
+                        <div class="container__block">
+                            <li class="container__list--item">
+                                <details class="container__details">
+                                    <summary class="container__details--summary">
+                                        Lámpara
+                                    </summary>
+                                    "Al encender una lámpara, la electricidad se convierte en luz y calor, demostrando la conversión de energía."
+                                </details>
+                            </li>
+                        </div>
+                    </ul>
+                    <a href="#inicio" class="icon_arrow">
+                        <img src="/iconos/arrow_up.png" alt="ir hacia arriba">
+                    </a>
+                </div>
+                <div class="container__section">
+                    <!--Subtema-->
+                    <h3 class="container__title" id="destino2">En el transporte</h3>
+                    <!--Casos de la Física-->
+                    <ul>
+                        <!--Caso-->
+                        <div class="container__block">
+                            <li class="container__list--item">
+                                <details class="container__details">
+                                    <summary class="container__details--summary">
+                                        Bicicleta
+                                    </summary>
+                                    "La inercia en una bicicleta hace que, a mayor velocidad, más difícil sea detenerte."
+                                </details>
+                            </li>
+                        </div>
+                        <!--Caso-->
+                        <div class="container__block">
+                            <li class="container__list--item">
+                                <details class="container__details">
+                                    <summary class="container__details--summary">
+                                        Auto
+                                    </summary>
+                                    "Cuando presionas el acelerador, la fuerza aplicada cambia el estado de reposo del coche a movimiento, siguiendo la primera ley de Newton."
+                                </details>
+                            </li>
+                        </div>
+                        <!--Caso-->
+                        <div class="container__block">
+                            <li class="container__list--item">
+                                <details class="container__details">
+                                    <summary class="container__details--summary">
+                                        Avión
+                                    </summary>
+                                    "Los aviones aprovechan el principio de Bernoulli, donde la diferencia de velocidad del aire sobre las alas genera la fuerza de sustentación."
+                                </details>
+                            </li>
+                        </div>
+                        <!--Caso-->
+                        <div class="container__block">
+                            <li class="container__list--item">
+                                <details class="container__details">
+                                    <summary class="container__details--summary">
+                                        Caminando
+                                    </summary>
+                                    "En un patinete, la resistencia al avance y la inercia influyen en cómo se mantiene el movimiento. Cuanto más rápido vas, más difícil será frenar."
+                                </details>
+                            </li>
+                        </div>
+                        <!--Caso-->
+                        <div class="container__block">
+                            <li class="container__list--item">
+                                <details class="container__details">
+                                    <summary class="container__details--summary">
+                                        Tren
+                                    </summary>
+                                    "Los trenes se mueven gracias a la fricción entre las ruedas y los rieles, y la inercia ayuda a mantener el movimiento a través de las curvas."
+                                </details>
+                            </li>
+                        </div>
+                        <a href="#inicio" class="icon_arrow">
+                            <img src="/iconos/arrow_up.png" alt="ir hacia arriba">
+                        </a>
+                    </ul>
+                </div>
+                <div class="container__section">
+                    <!--Subtema-->
+                    <h3 class="container__title" id="destino3">En el deporte</h3>
+                    <!--Casos de la Física-->
+                    <ul>
+                        <!--Caso-->
+                        <div class="container__block">
+                            <li class="container__list--item">
+                                <details class="container__details">
+                                    <summary class="container__details--summary">
+                                        <h3>seguimos trabajando en ello</h3>
+                                    </summary>
+                                </details>
+                            </li>
+                        </div>
+                        <!--Caso-->
+                        <div class="container__block">
+                            <li class="container__list--item">
+                                <details class="container__details">
+                                    <summary class="container__details--summary">
+                                        <h3>seguimos trabajando en ello</h3>
+                                    </summary>
+                                </details>
+                            </li>
+                        </div>
+                        <!--Caso-->
+                        <div class="container__block">
+                            <li class="container__list--item">
+                                <details class="container__details">
+                                    <summary class="container__details--summary">
+                                        <h3>seguimos trabajando en ello</h3>
+                                    </summary>
+                                </details>
+                            </li>
+                        </div>
+                        <!--Caso-->
+                        <div class="container__block">
+                            <li class="container__list--item">
+                                <details class="container__details">
+                                    <summary class="container__details--summary">
+                                        <h3>seguimos trabajando en ello</h3>
+                                    </summary>
+                                </details>
+                            </li>
+                        </div>
+                        <!--Caso-->
+                        <div class="container__block">
+                            <li class="container__list--item">
+                                <details class="container__details">
+                                    <summary class="container__details--summary">
+                                        <h3>seguimos trabajando en ello</h3>
+                                    </summary>
+                                </details>
+                            </li>
+                        </div>
+                        <a href="#inicio" class="icon_arrow">
+                            <img src="/iconos/arrow_up.png" alt="ir hacia arriba">
+                        </a>
+                    </ul>
+                </div>
+                <div class="container__section">
+                    <!--Subtema-->
+                    <h3 class="container__title" id="destino4">En la naturaleza</h3>
+                    <!--Casos de la Física-->
+                    <ul>
+                        <!--Caso-->
+                        <div class="container__block">
+                            <li class="container__list--item">
+                                <details class="container__details">
+                                    <summary class="container__details--summary">
+                                        <h3>seguimos trabajando en ello</h3>
+                                    </summary>
+                                </details>
+                            </li>
+                        </div>
+                        <!--Caso-->
+                        <div class="container__block">
+                            <li class="container__list--item">
+                                <details class="container__details">
+                                    <summary class="container__details--summary">
+                                        <h3>seguimos trabajando en ello</h3>
+                                    </summary>
+                                </details>
+                            </li>
+                        </div>
+                        <!--Caso-->
+                        <div class="container__block">
+                            <li class="container__list--item">
+                                <details class="container__details">
+                                    <summary class="container__details--summary">
+                                        <h3>seguimos trabajando en ello</h3>
+                                    </summary>
+                                </details>
+                            </li>
+                        </div>
+                        <!--Caso-->
+                        <div class="container__block">
+                            <li class="container__list--item">
+                                <details class="container__details">
+                                    <summary class="container__details--summary">
+                                        <h3>seguimos trabajando en ello</h3>
+                                    </summary>
+                                </details>
+                            </li>
+                        </div>
+                        <!--Caso-->
+                        <div class="container__block">
+                            <li class="container__list--item">
+                                <details class="container__details">
+                                    <summary class="container__details--summary">
+                                        <h3>seguimos trabajando en ello</h3>
+                                    </summary>
+                                </details>
+                            </li>
+                        </div>
+                        <a href="#inicio" class="icon_arrow">
+                            <img src="/iconos/arrow_up.png" alt="ir hacia arriba">
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
