@@ -243,6 +243,17 @@ h3 {
 
 .container__section {
     margin: 300px;
+    width: 100%;
+    min-width: 300px;
+    max-width: 1500px;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 10px auto;
 }
 
 .icon_arrow {
